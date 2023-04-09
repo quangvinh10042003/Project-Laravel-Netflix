@@ -30,6 +30,10 @@ class Timeline extends Model
         $result = $query->where('release_id',$id);
         return $result;
     }
+    public function getTicketCountAttribute()
+    {
+        return $this->tickets->count();
+    }
     public function scopeIsTimelineQueryByFilmDateId($query, $film_id, $date_id ){
         $result = $query->where([
             ['film_id','=',$film_id],

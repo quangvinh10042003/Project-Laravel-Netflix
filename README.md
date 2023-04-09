@@ -9,7 +9,7 @@
 
 ## Cách dùng
 Hãy sử tạo ra database có tên: conditiontest. chạy lệnh như trong data.sql;
-
+Chạy lệnh: `php artisan db:seed` để tạo dữ liệu;
 ## About Laravel
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 

@@ -22,16 +22,16 @@ class RolePolicy
     // }
     public function isAdmin(User $user)
     {
-        return $user->id == 1 ? true : false;
+        return $user->id ? true : false;
     }
 
-    public function isProductManager(User $user)
-    {
-        return $user->id == 3 ? true : false;
-    }
+    // public function isProductManager(User $user)
+    // {
+    //     return $user->id == 3 ? true : false;
+    // }
 
-    public function isTimeManager(User $user)
-    {
-        return $user->id == 2 ? true : false;
-    }
+    // public function isTimeManager(User $user)
+    // {
+    //     return $user->id == 2 ? true : false;
+    // }
 }
