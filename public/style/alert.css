@@ -1,0 +1,11 @@
+.alert {
+    position: fixed;
+    top: 60px;
+    right: 0%;
+}
+
+.alertAdmin {
+    position: fixed;
+    top: 15px;
+    right: 0%;
+}

@@ -1,0 +1,46 @@
+.timeLine {
+    background-color: rgb(231, 231, 231);
+    border-radius: 5px;
+    padding: 7px 20px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.timeLine input {
+    width: 110px;
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+    border: none;
+}
+
+.deleteTime {
+    font-size: 10px;
+    font-weight: bolder;
+    border: none;
+    line-height: 18px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fff;
+    top: -5px;
+    right: -5px;
+    cursor: pointer;
+}
+
+.updateTime {
+    font-size: 10px;
+    font-weight: bolder;
+    border: none;
+    line-height: 18px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fff;
+    top: -5px;
+    left: -5px;
+    cursor: pointer;
+}
+
+.deleteTime:hover,
+.updateTime:hover {
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.314);
+}

@@ -1,0 +1,34 @@
+<script>
+    var arrNumber = [];
+    var allChair = '';
+
+    function getCourch(key) {
+        document.getElementsByClassName
+        let check = true;
+
+        var number = document.getElementById(`number${key}`).value;
+        if (arrNumber.length >= 1) {
+            for (let i = 0; i < arrNumber.length; i++) {
+                if (arrNumber[i] == number) {
+                    if (arrNumber.length == 1) {
+                        arrNumber = [];
+                        check = false;
+                    } else {
+                        arrNumber.splice(i, 1);
+                        check = false;
+                    }
+                }
+            }
+            if (check) {
+                arrNumber.push(number);
+            }
+        } else {
+            arrNumber.push(number);
+        }
+
+        console.log(arrNumber);
+        var json = JSON.stringify(arrNumber);
+        document.getElementById('lastArray').value = json;
+        document.getElementById(`iconCourch${key}`).classList.toggle('chairChoose');
+    }
+</script>

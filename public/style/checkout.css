@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(85, 85, 85, 0.5));
+    height: 100%;
+    padding-bottom: 200px;
+}
+
+main {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+}
+
+.content {
+    width: 310px;
+    margin-top: 100px;
+}
+
+.content-lg {
+    padding: 50px 50px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+form {
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    background: #e50914;
+    color: #fff;
+    padding: 12px 0px;
+}
+
+.input:hover {
+    color: #fff;
+    background-color: #e75d63;
+}
+
+.footer {
+    background-color: #f3f3f3;
+    padding: 30px;
+}
+
+.language {
+    border: 1px solid grey;
+}
+
+.form-group-style {
+    padding: 5px 0px;
+}
+
+.input-sign {
+    padding: 30px 15px;
+    width: 100%;
+}
+
+.option-sign {
+    display: block;
+    height: 100px !important;
+    min-height: auto;
+    width: 100%;
+}
+
+.input-sign:focus {
+    box-shadow: none;
+}
+
+.form-checkbox {
+    margin: 20px 0px;
+}
+
+.label {
+    float: left;
+    width: 435px;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+#checkbox {
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+
+.logo-check {
+    color: #e50914;
+}
+
+.font-size-large {
+    font-size: 18px;
+}
+
+.billBox {
+    background-color: black;
+    margin-top: 20px;
+    box-shadow: 0px 0px 7px 2px rgba(255, 0, 0, 0.679);
+}
+
+.billBox p {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .billBox p {
+        font-size: 13px;
+    }
+    .icon-web {
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    .login {
+        padding: 10px 5px;
+        margin-right: 10px;
+    }
+    .content-lg {
+        width: 310px;
+    }
+    .label {
+        width: 265px;
+    }
+    .input-sign {
+        padding: 30px 15px;
+        width: 300px;
+    }
+}
