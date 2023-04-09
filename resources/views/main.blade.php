@@ -12,7 +12,7 @@
             <p class="text-light more-infor-banner">Bộ phim đầu tiên được công ty game nổi tiếng Riot Games phát triển với nhân vật chính là chị em Vi - Powder, cặp đôi đầu duyên nợ trong tựa game League of Legend. ARCANE hứa hẹn sẽ kể 1 câu chuyện đầy khúc mắc của 2 chị em cùng với khung
                 cảnh thành phố ngầm Zaun đối ngược với sự thịnh vượng của Piltover.</p>
             <p class="lead">
-                <a class="btn btn-light btn-lg font-weight-bold button-banner" href="detail5-arcane.html" role="button"><span><i class="fa-solid fa-caret-right"></i></span> Phát</a>
+                <a class="btn btn-light btn-lg font-weight-bold button-banner" role="button"><span><i class="fa-solid fa-caret-right"></i></span> Phát</a>
             </p>
         </div>
     </div>
